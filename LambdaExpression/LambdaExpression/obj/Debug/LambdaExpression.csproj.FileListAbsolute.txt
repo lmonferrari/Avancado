@@ -1,0 +1,6 @@
+E:\C#\Avancado\LambdaExpression\LambdaExpression\bin\Debug\LambdaExpression.exe.config
+E:\C#\Avancado\LambdaExpression\LambdaExpression\bin\Debug\LambdaExpression.exe
+E:\C#\Avancado\LambdaExpression\LambdaExpression\bin\Debug\LambdaExpression.pdb
+E:\C#\Avancado\LambdaExpression\LambdaExpression\obj\Debug\LambdaExpression.csprojResolveAssemblyReference.cache
+E:\C#\Avancado\LambdaExpression\LambdaExpression\obj\Debug\LambdaExpression.exe
+E:\C#\Avancado\LambdaExpression\LambdaExpression\obj\Debug\LambdaExpression.pdb
