@@ -5,9 +5,9 @@ namespace EventsDelegate_2
 
     class BuyCar
     {
-        public void OnNeedCar(object source, EventHandler e)
+        public void OnNeedCar(object source, EventArgs e)
         {
-            System.Console.WriteLine("Wee Need to buy a new car!!!!");
+            System.Console.WriteLine("Consulting prices...");
         }
 
     }

@@ -5,27 +5,20 @@ namespace EventsDelegate_2
 {
     class NeedCar
     {
-        private Car _car;
-
-        public NeedCar(Car car)
-        {
-            _car = car;
-        }
-
         public event EventHandler NeededCar;
 
-        public void NeedNewCar()
+        public void NeedNewCar(Car car)
         {
-            Console.WriteLine("{0} - This car is needed to out company", _car.Name);
+            Console.WriteLine("{0} - This car is needed to out company", car.Name);
             Thread.Sleep(400);
-            OnNeedCar();
+            OnNeedCar(car);
         }
 
-        public void OnNeedCar()
+        public void OnNeedCar(Car car)
         {
             if(NeededCar != null)
             {
-                NeededCar(this, new EventArgs());
+                NeededCar(this, EventArgs.Empty);
             }
         }
     }

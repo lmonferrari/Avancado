@@ -11,10 +11,14 @@ namespace EventsDelegate_2
         static void Main(string[] args)
         {
             var car = new Car() { Name = "Fiat 500" };
-            var needCar = new NeedCar(car);
+            var needCar = new NeedCar();
             var buyCar = new BuyCar();
 
             needCar.NeededCar += buyCar.OnNeedCar;
+
+            needCar.NeedNewCar(car);
+
+            
         }
     }
 }
