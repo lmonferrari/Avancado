@@ -17,8 +17,6 @@ namespace EventsDelegate_2
             needCar.NeededCar += buyCar.OnNeedCar;
 
             needCar.NeedNewCar(car);
-
-            
         }
     }
 }
